@@ -84,6 +84,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .site-nav-item {
@@ -116,11 +117,14 @@ img {
   text-decoration: none;
   font-style: normal;
   align-items: center;
+  cursor: pointer;
 }
 
 .contacts-item {
   margin-right: 50px;
   display: flex;
+
+  text-align: center;
 }
 
 .contacts-item:last-child {
@@ -135,7 +139,6 @@ img {
 .header-social-icon {
   margin-right: 10px;
   fill: currentColor;
-  text-align: center;
 }
 
 /* Hero */
@@ -303,6 +306,7 @@ section {
 
 .team-list-class {
   width: 270px;
+  height: 428px;
   margin-right: 30px;
   background: #ffffff;
   /* material shadow v1 */
@@ -552,7 +556,8 @@ section {
 .gallery-text {
   margin-left: 24px;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 
 .gallery-container {
@@ -570,6 +575,10 @@ section {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+}
+
+.gallery-elements:hover,
+.gallery-elements:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
